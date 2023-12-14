@@ -67,17 +67,19 @@ public class MainActivity extends AppCompatActivity {
                 public void onLocationChanged(@NonNull Location location) {
                     double latitude = location.getLatitude();
                     double longitude = location.getLongitude();
+                    String apiKey = "";
                     String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?lat=" +
                             latitude + "&lon=" + longitude +
-                            "&appid=6c433438776b5be4ac86001dc88de74d&units=metric";
+                            "&appid=" + apiKey + "&units=metric";
                     fetchWeatherData(WEATHER_URL);
                     locationManager.removeUpdates(this);
                 }
             });
 
         } else {
+            String apiKey = "";
             String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=" + city +
-                    "&appid=6c433438776b5be4ac86001dc88de74d&units=metric";
+                    "&appid=" + apiKey +"&units=metric";
             fetchWeatherData(WEATHER_URL);
         }
     }
