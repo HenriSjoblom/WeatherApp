@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="temperatureText">Use settings to select ciry or location</string>
+    <string name="weatherLabel">Weather</string>
+    <string name="humidityLabel">Humidity</string>
+    <string name="cityText">City</string>
+    <string name="cityInputLabel">Write a city</string>
+    <string name="cityHint">Los Angeles</string>
+    <string name="settingsText">Settings</string>
+    <string name="updateDataText">Update weather data</string>
+    <string name="citySwitchLabel">City</string>
+    <string name="locationSwitchLabel">Location</string>
+    <string name="temperatureLabel">Temperature</string>
+    <string name="windLabel">Wind</string>
+    <string name="saveSettingsLabel">Save settings</string>
+    <string name="networkError">NETWORK ERROR</string>
+</resources>

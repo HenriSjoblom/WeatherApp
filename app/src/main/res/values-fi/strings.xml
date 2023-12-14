@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sääsovellus</string>
+    <string name="temperatureText">Valitse asetuksista kaupunki tai sijainti</string>
+    <string name="weatherLabel">Säänkuva</string>
+    <string name="humidityLabel">Kosteus</string>
+    <string name="cityText">Kaupunki</string>
+    <string name="cityInputLabel">Kirjoita kaupungin nimi</string>
+    <string name="cityHint">Tampere</string>
+    <string name="settingsText">Asetukset</string>
+    <string name="updateDataText">Hae säätiedot</string>
+    <string name="citySwitchLabel">Kaupunki</string>
+    <string name="locationSwitchLabel">Sijainti</string>
+    <string name="temperatureLabel">Lämpötila</string>
+    <string name="windLabel">Tuuli</string>
+    <string name="saveSettingsLabel">Tallenna asetukset</string>
+    <string name="networkError">VERKKOVIRHE</string>
+</resources>
